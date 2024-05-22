@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class=" scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Company</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="bg-black text-white">
+    <header class="flex items-center justify-between px-5 md:px-12 fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]">
+        <a href="#">
+            <img class="w-24 md:w-32" src = "./images/main_log1.png" alt = "log">
+            <p class="text-xs -mt-6 text-white md:text-sm md:-mt-8">The Shoe Company</p>
+        </a>
+        <nav class="hidden space-x-6 md:block lg:space-x-8 lg:text-2xl">
+            <a class = "font-bold" href="#hero">Home</a>
+            <a class = "font-bold"href="#how-it-works">How It Works?</a>
+            <a class = "font-bold"href="#about">About</a>     
+            <a class = "font-bold"href="#testimonials">Testimonials</a>
+            <a class = "font-bold"href="#contact">Contact Us</a>     
+        </nav>
+        <button class="text-5xl md:hidden">☰</button>
+    </header>
+    <section id = "hero" class = "bg-[url('./images/road.png')] bg-cover md:bg-contain bg-no-repeat bg-right pt-36 px-5 md:px-12 max-w-[1440px] mx-auto">
+        <div  class="flex flex-col md:flex-row md:items-center justify-between max-w-6xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold leading-[48px] md:leading-[72px]">THE<br>SHOE<br>COMPANY</h1>
+            <div>
+                <img class="w-full max-w-xl" src="./images/white_shoe.png" alt="white shoe">
+            </div>
+        </div>
+    </section>
+    <section id = "how-it-works" class = "section-container pt-20">
+        <h2 class = "text-center text-3xl font-bold max-w-md mx-auto">Have they finally made the perfect workout shoe?</h2>
+        <div class="max-w-xl mx-auto mt-12 relative">
+            <img class="w-full max-w-2xl" src="./images/shoe2.png" alt="shoe">
+            <div class = "max-w-xs absolute top-0 -translate-x-full">
+                <h3 class="text-2xl font-bold">THE HELL</h3>
+                <p class = "text-lg">The heel is well-built, has appropriate elevation and is not too rigid.</p>
+                <img class = "ml-auto" src="./images/arrow1.png" alt="arrow-1">
+            </div>
+            <div class = "max-w-xs absolute top-0 -right-60">
+                <img class=" -ml-32" src="./images/arrow2.png" alt="arrow-1">
+                <h3 class="text-2xl font-bold -mt-20">THE HELL</h3>
+                <p class = "text-lg">The heel is well-built, has appropriate elevation and is not too rigid.</p>
+            </div>
+            <div class = "max-w-xs absolute -bottom-16">
+                <img class = "ml-auto -mb-10 max-w-[150px]" src="./images/arrow3.png" alt="arrow-1">
+                <h3 class="text-2xl font-bold">THE HELL</h3>
+                <p class = "text-lg">The heel is well-built, has appropriate elevation and is not too rigid.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

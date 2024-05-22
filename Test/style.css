@@ -1,0 +1,17 @@
+.outer
+{
+    top: 100px;
+    position: relative;
+    margin: 100px;
+    height: 500px;
+    width: 500px;
+    background-color: green;
+}
+.inner
+{
+    top: 10px;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
