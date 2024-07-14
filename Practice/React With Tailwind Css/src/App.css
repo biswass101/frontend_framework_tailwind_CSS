@@ -1,0 +1,33 @@
+.goru
+{
+    display: none;
+    position: absolute;
+    animation-name: slide;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+}
+
+.listtt
+{
+    cursor: pointer;
+}
+
+.listtt li:hover
+{
+    background-color: rgb(101, 74, 74);
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes slide
+{
+    0%{
+        transform: translateY(0px);
+    }
+    100%
+    {
+        transform: translateY(20px);
+    }
+}
